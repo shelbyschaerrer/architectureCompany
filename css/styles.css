@@ -365,14 +365,13 @@ nav ul li {
 }
 nav li.active {
   background-color: #8F9E75;
-  color: white;
 }
 nav a {
   display: block;
   padding: 0.85rem;
   text-align: center;
   text-decoration: none;
-  color: inherit;
+  color: black;
 }
 
 .hero {
@@ -391,6 +390,7 @@ nav a {
 video {
   width: 90%;
   margin-left: 5%;
+  margin-top: 40px;
 }
 
 details {
@@ -449,10 +449,6 @@ footer p {
     width: 80%;
     margin-left: 10%;
   }
-  video {
-    width: 80%;
-    margin-left: 10%;
-  }
   details {
     width: 80%;
     margin-left: 10%;
@@ -472,14 +468,16 @@ footer p {
   nav ul li {
     flex: 1;
     border: none;
+    color: black;
   }
   nav li.active {
-    color: white;
+    color: black;
   }
   nav ul li a {
     display: block;
     padding: 0.75rem;
     text-align: center;
+    color: black;
   }
   nav ul li a:hover {
     text-decoration: underline 3px #028A96;
