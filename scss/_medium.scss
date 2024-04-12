@@ -1,0 +1,26 @@
+header {
+    padding: 2rem $gutter;
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+
+nav {
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    ul li a {
+        border: none;
+    }
+    ul li a:hover {
+        text-decoration: wavy;
+    }
+    ul li.active a:hover {
+        text-decoration: wavy;
+    } //this one was to solve a problem last time
+    ul li.active a {
+        text-decoration: wavy;//just to stop the error message for now
+    }
+}
